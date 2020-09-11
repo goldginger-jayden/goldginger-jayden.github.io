@@ -4,4 +4,10 @@
 
 p {
     font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
