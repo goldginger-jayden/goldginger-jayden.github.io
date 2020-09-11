@@ -4,22 +4,20 @@ body {
     text-align: center;
     color: whitesmoke;
     text-shadow: 2px 2px 5px black;
-    margin-right: 10%;
-    margin-left: 10%;
     font-family: 'Rubik', sans-serif;
-}
-
-.container {
-    text-align: justify;
 }
 
 .header {
     font-family: 'Roboto', sans-serif;
 }
 
+#mainheader {
+    font-size: 200px;
+}
+
 p {
     font-size: 16px;
-    position: relative;
+    margin: 50px;
 }
 
 .button {
