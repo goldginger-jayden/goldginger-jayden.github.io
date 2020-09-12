@@ -19,15 +19,36 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>Placeholder</h1>
-			<h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the
-					speediest
-					runner.</em> (Optional SUB title) </h2>
-			<h3>10 November 2010</h3>
+			<h1>Sprint 2 Technical</h1>
+			<h2>What are the Best Practices Associated with Using Classes vs. IDs? 🤔</h2>
+			<h3>12 September 2020</h3>
 		</header>
 		<main>
-			<p> Placeholder for sprint 2</p>
-			<p> akjdsfhkjhdbsfvkjhdvbsd this is not a good lorem ipsum</p>
+			<p>This question actually came up in my own experience of building this site. From what I can gather, in
+				general, you want to use classes for elements that you'll be reusing a lot. IDs are used to single out
+				one specific element on a page.</p>
+			<p>Classes and IDs can be used in conjunction with each other though! If you wanted to call out one specific
+				area to change it's styling, you can! Any styling done to an ID that's also part of a class will inherit
+				or override that classes style.</p>
+			<p>In the case of this site I wanted the main header to be a specific font size but for
+				other main (h1) headings to not be affected. In order to accomplish this I gave it an id of
+				"main-header". I have styling applied for headers already so all I needed to do was to give the main
+				heading an id and give it it's own font size.</p>
+			<p><u>I wanted only my main header to be 60px</u></p>
+			<div class="example">
+				<p>👇header (Class) and #main-header (ID) in CSS👇</p>
+				<img src="../images/sprint2-technical/css-example.JPG" alt="CSS ID example">
+			</div>
+			<div class="example">
+				<p>👇Class (header) and ID (main-header) in HTML👇</p>
+				<img src="../images/sprint2-technical/main-html-example.JPG" alt="HTML ID example">
+			</div>
+			<div class="example">
+				<p>👇As the h1 tag below doesn't have the ID of main-header it will not be 60px. It will still apply the
+					header styling from my CSS however👇</p>
+				<img src="../images/sprint2-technical/second-html-example.PNG" alt="Non affected example">
+			</div>
+
 		</main>
 		<div class="button-container">
 			<a class="button" href="../index.html">🏠 HOME</a>

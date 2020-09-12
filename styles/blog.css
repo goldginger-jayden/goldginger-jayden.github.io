@@ -1,7 +1,9 @@
-/*.header {
-    font-family: 'Roboto', sans-serif;
+img {
+    max-height: 25%;
+    width: 40%;
+    margin: 1em;
 }
 
-p {
-    font-family: 'Rubik', sans-serif;
-}*/
+.example {
+    text-decoration: solid;
+}
