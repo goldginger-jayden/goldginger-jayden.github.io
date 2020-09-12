@@ -7,3 +7,10 @@ img {
 .example {
     text-decoration: solid;
 }
+
+ul, ol{
+    text-align: left;
+    padding-left: 40rem;
+    padding-top: 2rem;
+    padding-right: 0%;
+}
