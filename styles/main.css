@@ -15,11 +15,15 @@ body {
 	padding-right: 25%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
 	.container {
 		padding: 0%;
 		/* The padding is 0%, when the viewport is 800px or smaller */
+	}
+
+	.button {
+		display: block;
 	}
 }
 
@@ -43,7 +47,6 @@ p {
 
 .button {
 	font-size: 16px;
-	display: block;
 	color: whitesmoke;
 	background-color: #525252;
 	padding: 0.8rem;
