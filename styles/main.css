@@ -11,8 +11,8 @@ body {
 .container {
 	display: flex;
 	flex-direction: column;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 header {
@@ -60,4 +60,5 @@ footer {
 	margin-top: 20rem;
 	text-align: center;
 	text-shadow: none;
+	text-decoration: none;
 }

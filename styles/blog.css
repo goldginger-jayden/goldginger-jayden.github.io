@@ -8,9 +8,7 @@ img {
     text-decoration: solid;
 }
 
-ul, ol{
+.list {
     text-align: left;
-    padding-left: 40rem;
-    padding-top: 2rem;
-    padding-right: 0%;
+    text-decoration: none !important;
 }
