@@ -9,6 +9,10 @@ img {
 }
 
 .list {
+    color: black;
+    text-shadow: none !important;
     text-align: left;
     text-decoration: none !important;
+    background-color: white;
+    position: relative;
 }
