@@ -15,15 +15,26 @@ body {
 	padding-right: 25%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
 	.container {
 		padding: 0%;
-		/* The padding is 0%, when the viewport is 800px or smaller */
 	}
 
 	.button {
 		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		text-align: right;
+	}
+}
+
+@media (max-width: 320px) {
+	body {
+		text-align: left;
 	}
 }
 
